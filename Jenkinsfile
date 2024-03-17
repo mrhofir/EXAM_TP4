@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git branch: "${gitBranch}", url: 'https://github.com/mrhofir/EXAM_TP4.gi'
+        git branch: "${gitBranch}", url: 'https://github.com/mrhofir/EXAM_TP4.git'
       }
     }
     stage('Building image') {
